@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/can1357/oh-my-pi/main/packages/coding-agent/src/config/mcp-schema.json",
+  "mcpServers": {
+    "elevenlabs": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@0.14.3",
+        "https://api.us.elevenlabs.io/v1/mcp",
+        "3334",
+        "--client-metadata-url",
+        "https://superjsonblob.com/api/jsonBlob/dece792e-cd08-45e6-9c49-d5278e216ca2",
+        "--auth-timeout",
+        "300"
+      ],
+      "enabled": true,
+      "timeout": 300000
+    }
+  }
+}
