@@ -1,0 +1,9 @@
+{
+  "name": "internet-routing",
+  "title": "How the Internet Routes a Request",
+  "format": { "width": 1080, "height": 1920, "fps": 30, "aspect": "9:16" },
+  "targetDurationSec": 45,
+  "voiceover": { "enabled": true, "provider": "elevenlabs" },
+  "direction": "ASCII / terminal anime — see creative/design/design-bible.md",
+  "status": "rendered"
+}

@@ -1,0 +1,16 @@
+{
+  "families": {
+    "glyph":   { "font": "IBM Plex Mono", "use": "ASCII rendering atlas, IPs, logs, captions" },
+    "display": { "font": "Departure Mono", "fallback": "Silkscreen", "use": "oversized pixel headlines, section numbers" },
+    "jp":      { "font": "DotGothic16", "use": "decorative Japanese accents (sparingly)" }
+  },
+  "hierarchy": {
+    "headline":   { "family": "display", "sizePx": 180, "tracking": -0.02, "case": "lower" },
+    "sectionNum": { "family": "display", "sizePx": 96,  "format": "01" },
+    "keyWord":    { "family": "display", "minSizePx": 48 },
+    "caption":    { "family": "glyph", "sizePx": 64, "minLineHeightPx": 75, "maxCharsPerLine": 17, "maxLines": 2, "align": "left", "x": 120, "zoneY": [1080, 1245], "color": "inkDeep", "plate": "paper (solid)" },
+    "data":       { "family": "glyph", "minSizePx": 36, "color": "inkDeep", "opacity": 1.0 },
+    "asciiCell":  { "family": "glyph", "cellPx": [12, 20], "ramp": " .:-=+*#%@", "textureOnly": true }
+  },
+  "notes": "All fonts are free (Google Fonts / OFL). Readable text >= 36 px; key words >= 48 px. ASCII at the 12x20 cell size is texture only and never carries meaning. Captions: verbatim VO chunks of 1-4 words, inside safe zone (see composition.md, format.md rules 14-17)."
+}

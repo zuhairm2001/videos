@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>internet-routing · animation</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #222; }
+      body { display: flex; align-items: center; justify-content: center; flex-direction: column; }
+      #out { height: calc(100vh - 32px); aspect-ratio: 9 / 16; image-rendering: pixelated; }
+      #hud { color: #ddd; font: 13px monospace; height: 24px; line-height: 24px; }
+      body.render #hud { display: none; }
+      body.render #out { height: 64px; }
+    </style>
+  </head>
+  <body>
+    <canvas id="out" width="1080" height="1920"></canvas>
+    <div id="hud">loading…</div>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

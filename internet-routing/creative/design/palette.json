@@ -1,0 +1,25 @@
+{
+  "name": "Printed Terminal",
+  "colors": {
+    "paper":      { "hex": "#F2EDE1", "role": "ground / background, caption plate" },
+    "paperShade": { "hex": "#E2DACA", "role": "secondary ground, dither dark on paper" },
+    "ink":        { "hex": "#1F3FE0", "role": "primary: glyphs, lines, character" },
+    "inkDeep":    { "hex": "#0B1A7A", "role": "shadows, dense ASCII, all readable text on paper" },
+    "skyTint":    { "hex": "#9DB4F2", "role": "cloud/dither mid-tone (never text)" },
+    "signal":     { "hex": "#E6168A", "role": "accent: the tracked packet, key numbers" },
+    "error":      { "hex": "#E0331F", "role": "dropped packet / timeout only" }
+  },
+  "rules": [
+    "paper + ink in every frame",
+    "signal appears on at most one subject at a time (the tracked packet)",
+    "error used only for failure beats",
+    "max 3 non-ground colours per frame"
+  ],
+  "contrastRules": [
+    "no readable text in ink below 100% opacity",
+    "no text in skyTint",
+    "signal/error text only at >= 66 px regular or >= 52 px bold",
+    "tracked packet differs from other packets by shape, size and a paper halo, not colour alone (signal vs ink contrast is only 1.7:1)",
+    "captions: inkDeep on a solid paper plate over any texture; emphasis by inversion (paper on inkDeep), never magenta"
+  ]
+}

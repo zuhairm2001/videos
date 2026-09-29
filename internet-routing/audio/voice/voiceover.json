@@ -1,0 +1,124 @@
+{
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "jB2lPb5DhAX6l1TLkKXy",
+    "name": "Brittney - Female, UK Accent",
+    "why": "Library description: upbeat, warm, reliable, e-learning/informative \u2014 matches 'smooth but upbeat'; female voice pairs with the anime guide character.",
+    "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/glklRmLoFeWZciiTRthKn6JAIwp1/voices/jB2lPb5DhAX6l1TLkKXy/MPsBF4UFG1iBgM47VKTU.mp3"
+  },
+  "alternates": [
+    {
+      "voice_id": "wkqe33083YLBV35we7yB",
+      "name": "River - Energetic Relatable American",
+      "note": "warm, uplifting, steady pacing; US accent"
+    },
+    {
+      "voice_id": "3nDq4c7a9Pk3q5rxbMJH",
+      "name": "Matthew Schmitz - Friendly Warm",
+      "note": "smoothest option, male, less upbeat"
+    }
+  ],
+  "delivery": "smooth but upbeat: warm even timbre, bright smiling delivery, ~150-160 wpm, not hype-y",
+  "segments": [
+    {
+      "id": "v01",
+      "start": 0.2,
+      "end": 1.62,
+      "file": "segments/v01.wav"
+    },
+    {
+      "id": "v02",
+      "start": 2.55,
+      "end": 4.36,
+      "file": "segments/v02.wav"
+    },
+    {
+      "id": "v03",
+      "start": 5.75,
+      "end": 11.04,
+      "file": "segments/v03.wav"
+    },
+    {
+      "id": "v04",
+      "start": 11.35,
+      "end": 12.59,
+      "file": "segments/v04.wav"
+    },
+    {
+      "id": "v05",
+      "start": 13.2,
+      "end": 15.01,
+      "file": "segments/v05.wav"
+    },
+    {
+      "id": "v06",
+      "start": 15.16,
+      "end": 16.59,
+      "file": "segments/v06.wav"
+    },
+    {
+      "id": "v07",
+      "start": 17.2,
+      "end": 20.49,
+      "file": "segments/v07.wav"
+    },
+    {
+      "id": "v08",
+      "start": 20.64,
+      "end": 23.71,
+      "file": "segments/v08.wav"
+    },
+    {
+      "id": "v09",
+      "start": 24.35,
+      "end": 28.77,
+      "file": "segments/v09.wav"
+    },
+    {
+      "id": "v10",
+      "start": 28.92,
+      "end": 31.03,
+      "file": "segments/v10.wav"
+    },
+    {
+      "id": "v11",
+      "start": 32.25,
+      "end": 34.48,
+      "file": "segments/v11.wav"
+    },
+    {
+      "id": "v12",
+      "start": 35.0,
+      "end": 37.71,
+      "file": "segments/v12.wav"
+    },
+    {
+      "id": "v13",
+      "start": 38.3,
+      "end": 42.37,
+      "file": "segments/v13.wav"
+    },
+    {
+      "id": "v14",
+      "start": 42.8,
+      "end": 44.55,
+      "file": "segments/v14.wav"
+    }
+  ],
+  "model_id": "eleven_multilingual_v2",
+  "flow_url": "https://elevenlabs.io/app/flows/ruissj1vTEJjUnF47cAC",
+  "takes": [
+    {
+      "generation_id": "4l3bL3Uay0SYJ7pn4RSU",
+      "file": "takes/takeB_4l3bL3Uay0SYJ7pn4RSU.mp3",
+      "selected": true
+    },
+    {
+      "generation_id": "mJDBo1tE0ybhFtkors61",
+      "file": "takes/takeA_mJDBo1tE0ybhFtkors61.mp3",
+      "selected": false,
+      "note": "ASR heard 'page is HTML' \u2014 less clear"
+    }
+  ],
+  "processing": "Split by word timestamps (faster-whisper small.en) snapped to silences; internal pauses capped at 0.28 s; placed at storyboard starts (min 0.15 s gap); loudnorm -16 LUFS, -1.5 dBTP; 45.0 s mono 48 kHz."
+}

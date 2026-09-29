@@ -7,6 +7,8 @@ Furthermore we might also have additional sfx and music to accompany the video i
 
 For music generation, spawn an agent for TypeScript-based music-generation that will generate the complete composition as TypeScript code. The code should use Tone.js for synthesis, sequencing, timing, and effects, with Tonal for music-theory operations such as scales, chords, and note manipulation. You should then export the web audio into a compatible audio file to be used for the video
 
+Analyse the music output with a spectogram.
+
 ## Design/Artistic Direction
 
 It is important to first establish an artistic direction that will dictate the overall design of the rest of then animation before actual beginning on creating the animation itself.

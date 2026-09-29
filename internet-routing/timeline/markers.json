@@ -1,0 +1,185 @@
+{
+  "markers": [
+    {
+      "t": 0,
+      "label": "beat B0 Hook"
+    },
+    {
+      "t": 0,
+      "label": "interrupt I1 guide entrance + keystroke"
+    },
+    {
+      "t": 2.5,
+      "label": "beat B1 Promise"
+    },
+    {
+      "t": 5.5,
+      "label": "beat B2 01 DNS"
+    },
+    {
+      "t": 5.5,
+      "label": "interrupt I2 slam 01"
+    },
+    {
+      "t": 5.5,
+      "label": "slam 01"
+    },
+    {
+      "t": 13,
+      "label": "beat B3 02 Packets"
+    },
+    {
+      "t": 13,
+      "label": "interrupt I3 scanline wipe"
+    },
+    {
+      "t": 20,
+      "label": "beat B4 03 Routing"
+    },
+    {
+      "t": 20,
+      "label": "interrupt I4 slam 03"
+    },
+    {
+      "t": 20,
+      "label": "slam 03"
+    },
+    {
+      "t": 24.7,
+      "label": "interrupt I5 camera pull-back"
+    },
+    {
+      "t": 28.8,
+      "label": "interrupt I6 red link failure + slip (remapped from 28.30)"
+    },
+    {
+      "t": 31.6,
+      "label": "beat B5 04 Arrival"
+    },
+    {
+      "t": 31.6,
+      "label": "interrupt I7 music drop"
+    },
+    {
+      "t": 38,
+      "label": "beat B6 Payoff"
+    },
+    {
+      "t": 38,
+      "label": "interrupt I8 push-in to stopwatch + slip + guide"
+    },
+    {
+      "t": 38,
+      "label": "payoff"
+    },
+    {
+      "t": 42.5,
+      "label": "beat B7 Loop bridge"
+    },
+    {
+      "t": 42.5,
+      "label": "interrupt I9 scanline wipe"
+    },
+    {
+      "t": 45,
+      "label": "loop seam"
+    }
+  ],
+  "beats": [
+    {
+      "t": 0,
+      "label": "B0 Hook"
+    },
+    {
+      "t": 2.5,
+      "label": "B1 Promise"
+    },
+    {
+      "t": 5.5,
+      "label": "B2 01 DNS"
+    },
+    {
+      "t": 13,
+      "label": "B3 02 Packets"
+    },
+    {
+      "t": 20,
+      "label": "B4 03 Routing"
+    },
+    {
+      "t": 31.6,
+      "label": "B5 04 Arrival"
+    },
+    {
+      "t": 38,
+      "label": "B6 Payoff"
+    },
+    {
+      "t": 42.5,
+      "label": "B7 Loop bridge"
+    }
+  ],
+  "interrupts": [
+    {
+      "t": 0,
+      "label": "I1 guide entrance + keystroke"
+    },
+    {
+      "t": 5.5,
+      "label": "I2 slam 01"
+    },
+    {
+      "t": 13,
+      "label": "I3 scanline wipe"
+    },
+    {
+      "t": 20,
+      "label": "I4 slam 03"
+    },
+    {
+      "t": 24.7,
+      "label": "I5 camera pull-back"
+    },
+    {
+      "t": 28.8,
+      "label": "I6 red link failure + slip (remapped from 28.30)"
+    },
+    {
+      "t": 31.6,
+      "label": "I7 music drop"
+    },
+    {
+      "t": 38,
+      "label": "I8 push-in to stopwatch + slip + guide"
+    },
+    {
+      "t": 42.5,
+      "label": "I9 scanline wipe"
+    }
+  ],
+  "slams": [
+    {
+      "t": 5.5,
+      "label": "01"
+    },
+    {
+      "t": 20,
+      "label": "03"
+    }
+  ],
+  "payoff": 38.0,
+  "loop_seam": 45.0,
+  "adjustments": [
+    "S09/S10 boundary moved 28.30 -> 28.80 (VO v09 ends 28.77); S10 internal events remapped [28.30,31.60]->[28.80,31.60]",
+    "v08 VO shift +0.44 s: blip2 22.05 -> 22.49",
+    "v10 VO shift +0.47 s: tick 29.55 -> 30.02, blip5 30.20 -> 30.67",
+    "S10 remap: failure crunch 28.30 -> 28.80 (file link-fail), edge chirp 31.42 -> 31.447",
+    "SFX tick 'cards dissolve' 19.900 -> 19.930 (+0.03 s): within ±0.08 s of stressed 'thirteen' onset est. 19.846",
+    "SFX blip4 'hop R3->R4, comma gap' 27.250 -> 27.290 (+0.04 s): within ±0.08 s of stressed 'again' onset est. 27.210",
+    "SFX blip5 'hop 5 on unstressed \"router\" (v10 +0.47)' 30.670 -> 30.710 (+0.04 s): within ±0.08 s of stressed 'another' onset est. 30.628",
+    "SFX shimmer 'packet train shimmer' 34.920 -> 34.900 (-0.02 s): within ±0.08 s of stressed 'Thirteen' onset 35.000",
+    "caption 'about thirteen.' clipped at S07/S08 boundary 20.00 gave 0.29 s/word -> merged with 'HTML needs' (18.416-20.000, 2 lines)",
+    "caption 'and passes it' 0.24 s/word -> merged with 'one step closer.' (2 lines)",
+    "captions 'If a link fails,' (0.21 s/word) and 'the router' (0.28 s/word) merged (2 lines); merged chunk still 0.23 s/word so boundary to 'picks another.' moved 30.327->30.73 to give 0.30 s/word (last chunk 30.73-31.43)"
+  ]
+}
