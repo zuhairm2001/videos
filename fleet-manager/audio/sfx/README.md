@@ -1,0 +1,24 @@
+# SFX
+
+Synthesised with Tone.js offline rendering in Playwright Chromium (`sfx.ts` defines the sounds, `render-sfx.ts` renders them).
+Regenerate from the project root: `npx tsx audio/sfx/render-sfx.ts` (optionally pass names to render a subset). Renders are deterministic: every sound gets its own page and a seed derived from its name, so content, lengths and random choices never change. Sounds built only from oscillators and noise are bit-identical run to run; those using Tone's envelope synths can differ by 1–2 LSB of 24-bit (≈ −132 dBFS) from Chromium's float rounding.
+
+All files: 48 kHz stereo 24-bit PCM WAV, linked peak -1 dBFS, 2 ms raised-cosine fade-in. Decaying sounds are tail-trimmed at -60 dB below peak with a 5 ms fade-out; fixed-length sounds (cut to picture) keep their exact length and stop with a 3 ms fade. The transient sits at t = 0 except for the fixed-length swells, which peak at their end, so place each file at the cue time from `timeline.json` (`audio.sfx[]`) and set the level with `gainDb`.
+
+| File | Duration (s) | Length | Sound | Timeline cues (s) |
+|---|---|---|---|---|
+| `cluster-pop.wav` | 0.140 | trimmed | soft two-tone blip C6 → F6 (rising fourth to the tonic): triangle + sub-octave sine + tiny noise click | 0.50 (-4 dB, S01 hero glyph) · 32.20 (-9 dB, S07 arrival) · 32.25 (-9 dB, S07 arrival) · 32.30 (-9 dB, S07 arrival) · 33.70 (-9 dB, S07 arrival) · 33.75 (-9 dB, S07 arrival) · 33.80 (-9 dB, S07 arrival) · 48.40 (-10 dB) · 49.00 (-10 dB) · 49.60 (-10 dB) · 57.00 (-8 dB, CTA plate) |
+| `dot-tick-burst.wav` | 0.192 | trimmed | seeded cluster of 4–8 very short high ticks on F-pentatonic notes F6–F7, each with a noise click, spread across the stereo field | 4.00 (-10 dB, S02 doubling 1) · 4.50 (-9.5 dB, S02 doubling 2) · 5.00 (-9 dB, S02 doubling 3) · 5.50 (-8.5 dB, S02 doubling 4) · 6.00 (-8 dB, S02 doubling 5) · 6.50 (-7.5 dB, S02 doubling 6) · 7.00 (-7 dB, S02 doubling 7) · 8.60 (-12 dB, S03 landings) · 30.00 (-12 dB, S07 scan) |
+| `drift-buzz.wav` | 1.150 | fixed | small detuned buzz: two saws on D3 30 cents apart + square on A2, band-passed, flickering at 7.5 Hz (2 f on / 2 f off), swelling to full at 1.10 s, hard stop at 1.15 s | 6.80 (-8 dB, S02 drift flicker, 1.15 s, hard stop) |
+| `hub-hit.wav` | 0.511 | trimmed | reveal / icon-lock hit: F1 membrane thump + F2 body, bright transient (noise click + FM bell F6), short F major triad and noise tail | 8.00 (-2 dB, S03 reveal downbeat) · 53.40 (-3 dB, icon lock) |
+| `link-zip.wav` | 0.289 | trimmed | rising filtered zip, 0.3 s: saw F4 → F6 through a tracking band-pass, 70 Hz zipper chop + noise, panning left → right, ending on a tiny F7 tick | 8.10 (-8 dB, S03 snap to fleet) · 39.20 (-7 dB, S09 namespace band) |
+| `slam.wav` | 0.315 | trimmed | tight low hit for the section numerals: F1 membrane (4-octave sweep) + low-passed noise smack + F2 → F1 square body + tiny click | 14.00 (-3 dB) · 26.00 (-3 dB) · 36.00 (-3 dB) |
+| `stage-sweep.wav` | 1.300 | fixed | stage fill, 1.3 s: stereo pink noise band-pass sweep 350 Hz → 5.5 kHz with a triangle F4 → F5 / sine F5 → F6 rise, panning left → right with the sweep line | 17.00 (-8 dB, stage 1, 1.2 s) · 20.00 (-8 dB, stage 2, 1.5 s) · 23.00 (-8 dB, stage 3, 1.5 s) |
+| `pass-chime.wav` | 0.604 | trimmed | two-note chime F5 → C6 for `[ PASS ]`: soft FM bell + triangle + sub-octave sine, low-passed | 18.30 (-6 dB) · 21.60 (-6 dB) · 24.60 (-6 dB) |
+| `gate-chime.wav` | 0.517 | trimmed | `[ APPROVED ]` gate chime, the pass-chime an octave up: F6 → C7 glassy FM bell + triangle, with a tiny tick on the flip | 19.00 (-6 dB) · 22.20 (-6 dB) |
+| `flock-whoosh.wav` | 1.151 | trimmed | airy whoosh for the arrow-of-arrows: stereo pink noise band-pass 500 Hz → 3.2 kHz → 1.2 kHz panning left → right, with 28 granular F-pentatonic dot grains (F6–C8) riding the pan | 31.00 (-6 dB) · 32.50 (-7 dB) |
+| `stamp.wav` | 0.082 | trimmed | mechanical policy-stamp clack: low-passed noise body + woody square 330 → 180 Hz + 110 Hz membrane, then a metallic latch click 35 ms later | 40.50 (-4 dB) · 41.50 (-4 dB) · 42.50 (-4 dB) |
+| `riser.wav` | 2.000 | fixed | 2.0 s noise riser into the reach: stereo white noise band-pass 300 Hz → 9 kHz + detuned saws C4 → C5, beat-synced tremolo (16ths → 32nds), exponential swell peaking at the end, hard cut | 44.00 (-10 dB, into reach, 2.0 s) |
+| `riser-short.wav` | 1.200 | fixed | 1.2 s version of `riser` into the CTA (same layers, compressed) | 50.80 (-9 dB, into CTA, 1.2 s) |
+| `whoosh-pull.wav` | 1.000 | trimmed | camera pull-back: stereo pink noise band-pass falling 5 kHz → 350 Hz (early swell, long fade) + sine drop F3 → F2 | 46.00 (-5 dB) |
+| `collapse.wav` | 1.400 | fixed, reversed | 1.4 s reverse swell for the dot collapse: a reversed F add9 FM-bell cluster (F4 A4 C5 G5 F5) + swirling pink noise + F2 sub + reversed dot grains, peaking at the very end (lands on hub-hit) | 52.00 (-5 dB, reverse swell 1.4 s) |

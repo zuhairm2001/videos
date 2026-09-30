@@ -1,0 +1,494 @@
+{
+  "fps": 30,
+  "duration": 60,
+  "width": 1920,
+  "height": 1080,
+  "bpm": 120,
+  "barSec": 2,
+  "scenes": [
+    {
+      "id": "S01",
+      "beat": "hook",
+      "start": 0,
+      "end": 4
+    },
+    {
+      "id": "S02",
+      "beat": "sprawl",
+      "start": 4,
+      "end": 8
+    },
+    {
+      "id": "S03",
+      "beat": "reveal",
+      "start": 8,
+      "end": 14
+    },
+    {
+      "id": "S04",
+      "beat": "section-01",
+      "start": 14,
+      "end": 16
+    },
+    {
+      "id": "S05",
+      "beat": "updates",
+      "start": 16,
+      "end": 26
+    },
+    {
+      "id": "S06",
+      "beat": "section-02",
+      "start": 26,
+      "end": 28
+    },
+    {
+      "id": "S07",
+      "beat": "placement",
+      "start": 28,
+      "end": 36
+    },
+    {
+      "id": "S08",
+      "beat": "section-03",
+      "start": 36,
+      "end": 38
+    },
+    {
+      "id": "S09",
+      "beat": "namespaces",
+      "start": 38,
+      "end": 46
+    },
+    {
+      "id": "S10",
+      "beat": "reach",
+      "start": 46,
+      "end": 52
+    },
+    {
+      "id": "S11",
+      "beat": "cta",
+      "start": 52,
+      "end": 60
+    }
+  ],
+  "cues": {
+    "s01.glyph": 0.5,
+    "s01.label": 0.8,
+    "s01.headline": 1.2,
+    "s01.sub": 2.2,
+    "s01.out": 3.4,
+    "s02.shrink": 4,
+    "s02.double.1": 4,
+    "s02.double.2": 4.5,
+    "s02.double.3": 5,
+    "s02.double.4": 5.5,
+    "s02.double.5": 6,
+    "s02.double.6": 6.5,
+    "s02.double.7": 7,
+    "s02.headline": 4.4,
+    "s02.sub": 5.4,
+    "s02.drift.start": 6.8,
+    "s02.drift.end": 7.9,
+    "s03.hub": 8,
+    "s03.snap.start": 8.1,
+    "s03.snap.end": 9.4,
+    "s03.links.start": 8.4,
+    "s03.links.end": 9.6,
+    "s03.wave": 8,
+    "s03.hull": 8.6,
+    "s03.title": 10,
+    "s03.sub": 10.8,
+    "s03.out": 13.4,
+    "s04.slam": 14,
+    "s04.label": 14.15,
+    "s04.out": 15.6,
+    "s05.chip": 16,
+    "s05.headline": 16.2,
+    "s05.header": 16.2,
+    "s05.sub": 16.8,
+    "s05.rows": 16.4,
+    "s05.stage1.sweep": 17,
+    "s05.stage1.end": 18.2,
+    "s05.stage1.pass": 18.3,
+    "s05.gate1": 19,
+    "s05.stage2.sweep": 20,
+    "s05.stage2.end": 21.5,
+    "s05.stage2.pass": 21.6,
+    "s05.gate2": 22.2,
+    "s05.stage3.sweep": 23,
+    "s05.stage3.end": 24.5,
+    "s05.stage3.pass": 24.6,
+    "s05.autoupgrade": 25,
+    "s06.slam": 26,
+    "s06.label": 26.15,
+    "s06.out": 27.6,
+    "s07.headline": 28.2,
+    "s07.panel": 28.4,
+    "s07.sub": 28.8,
+    "s07.scan.start": 30,
+    "s07.scan.end": 30.6,
+    "s07.wave1.start": 31,
+    "s07.wave1.end": 32.2,
+    "s07.wave2.start": 32.5,
+    "s07.wave2.end": 33.7,
+    "s07.ripple": 34,
+    "s07.also": 34.2,
+    "s08.slam": 36,
+    "s08.label": 36.15,
+    "s08.out": 37.6,
+    "s09.headline": 38.2,
+    "s09.columns": 38.2,
+    "s09.sub": 39,
+    "s09.band.start": 39.2,
+    "s09.band.end": 40,
+    "s09.stamp.quota": 40.5,
+    "s09.stamp.netpol": 41.5,
+    "s09.stamp.rbac": 42.5,
+    "s09.pulse": 43.5,
+    "s10.pull.start": 46,
+    "s10.pull.end": 46.8,
+    "s10.headline": 46.6,
+    "s10.sub": 47.2,
+    "s10.tile1": 48.4,
+    "s10.tile2": 49,
+    "s10.tile3": 49.6,
+    "s11.collapse.start": 52,
+    "s11.collapse.end": 53.4,
+    "s11.crisp": 53.4,
+    "s11.ripple": 54,
+    "s11.title": 54.2,
+    "s11.sub": 55,
+    "s11.smallprint": 56,
+    "s11.cta": 57
+  },
+  "music": {
+    "file": "audio/music/music.wav",
+    "motifAt": [
+      8,
+      34,
+      54
+    ],
+    "sections": [
+      {
+        "id": "sprawl",
+        "start": 0,
+        "end": 8,
+        "key": "D minor",
+        "energy": "2→5"
+      },
+      {
+        "id": "reveal",
+        "start": 8,
+        "end": 14,
+        "key": "F major",
+        "energy": 6
+      },
+      {
+        "id": "updates",
+        "start": 14,
+        "end": 26,
+        "energy": "6→7",
+        "layerAdds": [
+          17,
+          20,
+          23
+        ]
+      },
+      {
+        "id": "placement",
+        "start": 26,
+        "end": 36,
+        "energy": 7
+      },
+      {
+        "id": "governance",
+        "start": 36,
+        "end": 46,
+        "energy": 5,
+        "feel": "half-time"
+      },
+      {
+        "id": "reach",
+        "start": 46,
+        "end": 52,
+        "energy": 8
+      },
+      {
+        "id": "cta",
+        "start": 52,
+        "end": 60,
+        "energy": "8→3",
+        "resolve": "Fadd9",
+        "tailEnd": 59.5
+      }
+    ],
+    "hits": [
+      8,
+      14,
+      26,
+      36,
+      46,
+      52,
+      53.4
+    ]
+  },
+  "audio": {
+    "sfx": [
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 0.5,
+        "gainDb": -4,
+        "note": "S01 hero glyph"
+      },
+      {
+        "file": "audio/sfx/dot-tick-burst.wav",
+        "at": 4,
+        "gainDb": -10,
+        "note": "S02 doubling 1"
+      },
+      {
+        "file": "audio/sfx/dot-tick-burst.wav",
+        "at": 4.5,
+        "gainDb": -9.5,
+        "note": "S02 doubling 2"
+      },
+      {
+        "file": "audio/sfx/dot-tick-burst.wav",
+        "at": 5,
+        "gainDb": -9,
+        "note": "S02 doubling 3"
+      },
+      {
+        "file": "audio/sfx/dot-tick-burst.wav",
+        "at": 5.5,
+        "gainDb": -8.5,
+        "note": "S02 doubling 4"
+      },
+      {
+        "file": "audio/sfx/dot-tick-burst.wav",
+        "at": 6,
+        "gainDb": -8,
+        "note": "S02 doubling 5"
+      },
+      {
+        "file": "audio/sfx/dot-tick-burst.wav",
+        "at": 6.5,
+        "gainDb": -7.5,
+        "note": "S02 doubling 6"
+      },
+      {
+        "file": "audio/sfx/dot-tick-burst.wav",
+        "at": 7,
+        "gainDb": -7,
+        "note": "S02 doubling 7"
+      },
+      {
+        "file": "audio/sfx/drift-buzz.wav",
+        "at": 6.8,
+        "gainDb": -8,
+        "note": "S02 drift flicker, 1.15 s, hard stop"
+      },
+      {
+        "file": "audio/sfx/hub-hit.wav",
+        "at": 8,
+        "gainDb": -2,
+        "note": "S03 reveal downbeat"
+      },
+      {
+        "file": "audio/sfx/link-zip.wav",
+        "at": 8.1,
+        "gainDb": -8,
+        "note": "S03 snap to fleet"
+      },
+      {
+        "file": "audio/sfx/dot-tick-burst.wav",
+        "at": 8.6,
+        "gainDb": -12,
+        "note": "S03 landings"
+      },
+      {
+        "file": "audio/sfx/slam.wav",
+        "at": 14,
+        "gainDb": -3
+      },
+      {
+        "file": "audio/sfx/slam.wav",
+        "at": 26,
+        "gainDb": -3
+      },
+      {
+        "file": "audio/sfx/slam.wav",
+        "at": 36,
+        "gainDb": -3
+      },
+      {
+        "file": "audio/sfx/stage-sweep.wav",
+        "at": 17,
+        "gainDb": -8,
+        "note": "stage 1, 1.2 s"
+      },
+      {
+        "file": "audio/sfx/pass-chime.wav",
+        "at": 18.3,
+        "gainDb": -6
+      },
+      {
+        "file": "audio/sfx/gate-chime.wav",
+        "at": 19,
+        "gainDb": -6
+      },
+      {
+        "file": "audio/sfx/stage-sweep.wav",
+        "at": 20,
+        "gainDb": -8,
+        "note": "stage 2, 1.5 s"
+      },
+      {
+        "file": "audio/sfx/pass-chime.wav",
+        "at": 21.6,
+        "gainDb": -6
+      },
+      {
+        "file": "audio/sfx/gate-chime.wav",
+        "at": 22.2,
+        "gainDb": -6
+      },
+      {
+        "file": "audio/sfx/stage-sweep.wav",
+        "at": 23,
+        "gainDb": -8,
+        "note": "stage 3, 1.5 s"
+      },
+      {
+        "file": "audio/sfx/pass-chime.wav",
+        "at": 24.6,
+        "gainDb": -6
+      },
+      {
+        "file": "audio/sfx/dot-tick-burst.wav",
+        "at": 30,
+        "gainDb": -12,
+        "note": "S07 scan"
+      },
+      {
+        "file": "audio/sfx/flock-whoosh.wav",
+        "at": 31,
+        "gainDb": -6
+      },
+      {
+        "file": "audio/sfx/flock-whoosh.wav",
+        "at": 32.5,
+        "gainDb": -7
+      },
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 32.2,
+        "gainDb": -9,
+        "note": "S07 arrival"
+      },
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 32.25,
+        "gainDb": -9,
+        "note": "S07 arrival"
+      },
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 32.300000000000004,
+        "gainDb": -9,
+        "note": "S07 arrival"
+      },
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 33.7,
+        "gainDb": -9,
+        "note": "S07 arrival"
+      },
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 33.75,
+        "gainDb": -9,
+        "note": "S07 arrival"
+      },
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 33.800000000000004,
+        "gainDb": -9,
+        "note": "S07 arrival"
+      },
+      {
+        "file": "audio/sfx/link-zip.wav",
+        "at": 39.2,
+        "gainDb": -7,
+        "note": "S09 namespace band"
+      },
+      {
+        "file": "audio/sfx/stamp.wav",
+        "at": 40.5,
+        "gainDb": -4
+      },
+      {
+        "file": "audio/sfx/stamp.wav",
+        "at": 41.5,
+        "gainDb": -4
+      },
+      {
+        "file": "audio/sfx/stamp.wav",
+        "at": 42.5,
+        "gainDb": -4
+      },
+      {
+        "file": "audio/sfx/riser.wav",
+        "at": 44,
+        "gainDb": -10,
+        "note": "into reach, 2.0 s"
+      },
+      {
+        "file": "audio/sfx/whoosh-pull.wav",
+        "at": 46,
+        "gainDb": -5
+      },
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 48.4,
+        "gainDb": -10
+      },
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 49,
+        "gainDb": -10
+      },
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 49.6,
+        "gainDb": -10
+      },
+      {
+        "file": "audio/sfx/riser-short.wav",
+        "at": 50.8,
+        "gainDb": -9,
+        "note": "into CTA, 1.2 s"
+      },
+      {
+        "file": "audio/sfx/collapse.wav",
+        "at": 52,
+        "gainDb": -5,
+        "note": "reverse swell 1.4 s"
+      },
+      {
+        "file": "audio/sfx/hub-hit.wav",
+        "at": 53.4,
+        "gainDb": -3,
+        "note": "icon lock"
+      },
+      {
+        "file": "audio/sfx/cluster-pop.wav",
+        "at": 57,
+        "gainDb": -8,
+        "note": "CTA plate"
+      }
+    ]
+  }
+}

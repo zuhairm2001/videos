@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["node"],
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "tonal": ["./node_modules/tonal/dist/index.d.mts"],
+      "@tonaljs/*": ["./node_modules/@tonaljs/*/dist/index.d.mts"]
+    }
+  },
+  "include": ["animation/**/*.ts", "audio/**/*.ts", "timeline/**/*.ts", "render/**/*.ts"],
+  "exclude": ["node_modules"]
+}

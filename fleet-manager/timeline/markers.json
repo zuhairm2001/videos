@@ -1,0 +1,84 @@
+{
+  "markers": [
+    {
+      "t": 0,
+      "label": "scene S01 hook"
+    },
+    {
+      "t": 4,
+      "label": "scene S02 sprawl"
+    },
+    {
+      "t": 8,
+      "label": "scene S03 reveal"
+    },
+    {
+      "t": 8,
+      "label": "interrupt reveal / wave 1"
+    },
+    {
+      "t": 14,
+      "label": "scene S04 section-01"
+    },
+    {
+      "t": 14,
+      "label": "slam 01"
+    },
+    {
+      "t": 16,
+      "label": "scene S05 updates"
+    },
+    {
+      "t": 26,
+      "label": "scene S06 section-02"
+    },
+    {
+      "t": 26,
+      "label": "slam 02"
+    },
+    {
+      "t": 28,
+      "label": "scene S07 placement"
+    },
+    {
+      "t": 31,
+      "label": "flock"
+    },
+    {
+      "t": 34,
+      "label": "wave 2 + motif"
+    },
+    {
+      "t": 36,
+      "label": "scene S08 section-03"
+    },
+    {
+      "t": 36,
+      "label": "slam 03"
+    },
+    {
+      "t": 38,
+      "label": "scene S09 namespaces"
+    },
+    {
+      "t": 46,
+      "label": "scene S10 reach"
+    },
+    {
+      "t": 46,
+      "label": "pull-back"
+    },
+    {
+      "t": 52,
+      "label": "scene S11 cta"
+    },
+    {
+      "t": 52,
+      "label": "collapse"
+    },
+    {
+      "t": 54,
+      "label": "wave 3 + motif"
+    }
+  ]
+}

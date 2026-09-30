@@ -1,0 +1,9 @@
+{
+  "name": "fleet-manager",
+  "title": "Azure Kubernetes Fleet Manager — promo",
+  "format": { "width": 1920, "height": 1080, "fps": 30, "aspect": "16:9" },
+  "targetDurationSec": 60,
+  "voiceover": { "enabled": false },
+  "direction": "Fleet Spec Sheet — dot-matrix industrial spec sheet in Azure blue + Fleet Manager purple; see creative/design/design-bible.md",
+  "status": "rendered"
+}

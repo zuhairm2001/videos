@@ -1,0 +1,19 @@
+{
+  "families": {
+    "display": { "font": "Inter Tight", "file": "animation/assets/fonts/InterTight-Variable.ttf", "weights": [600, 800], "use": "headlines, product name; heavy grotesk from refs 03, 15" },
+    "mono":    { "font": "IBM Plex Mono", "files": ["animation/assets/fonts/IBMPlexMono-Regular.ttf", "animation/assets/fonts/IBMPlexMono-Bold.ttf"], "use": "spec strip, labels, status lines, sub-lines; refs 02, 17, 18" },
+    "dot":     { "font": "Doto", "file": "animation/assets/fonts/Doto-Variable.ttf", "weights": [700, 900], "use": "dot-matrix numerals, section numbers, counters; refs 01, 28" }
+  },
+  "hierarchy": {
+    "hero":       { "family": "display", "weight": 800, "sizePx": 120, "tracking": -0.03, "lineHeight": 1.0, "case": "sentence", "color": "paper" },
+    "headline":   { "family": "display", "weight": 800, "sizePx": 84, "tracking": -0.025, "lineHeight": 1.05, "maxLines": 2, "color": "paper" },
+    "subline":    { "family": "mono", "weight": 400, "sizePx": 28, "lineHeight": 1.35, "color": "mute", "maxChars": 72 },
+    "sectionNum": { "family": "dot", "weight": 900, "sizePx": 240, "format": "01", "color": "fleetLight" },
+    "sectionLabel": { "family": "mono", "weight": 700, "sizePx": 44, "tracking": 0.12, "case": "upper", "color": "paper" },
+    "counter":    { "family": "dot", "weight": 900, "sizePx": 200, "color": "paper" },
+    "label":      { "family": "mono", "weight": 400, "sizePx": 20, "tracking": 0.04, "case": "lower", "color": "mute", "minPx": 18 },
+    "chip":       { "family": "mono", "weight": 700, "sizePx": 22, "tracking": 0.1, "case": "upper", "format": "[ TEXT ]" },
+    "specStrip":  { "family": "mono", "weight": 400, "sizePx": 18, "tracking": 0.16, "case": "upper", "color": "mute" }
+  },
+  "notes": "All fonts OFL (licences next to font files). Microsoft's Segoe is not used (licensing); Inter Tight stands in as the neutral grotesk. Minimum readable text on 1080p: 18 px mono labels (decorative spec strip), 20 px for anything the viewer must read, headlines >= 84 px. Max one headline + one subline per frame."
+}

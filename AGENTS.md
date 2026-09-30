@@ -13,6 +13,19 @@ Analyse the music output with a spectogram.
 
 It is important to first establish an artistic direction that will dictate the overall design of the rest of then animation before actual beginning on creating the animation itself.
 
+### Moodboard
+
+The moodboard comes before the design bible, and every design decision should cite it. Build it with this pipeline and keep every intermediate output, so the selection can be audited and reproduced.
+
+1. **Seed.** Ask the user for a seed Pinterest pin and, optionally, one of their boards. Record both in `moodboard/INDEX.md`.
+2. **Collect candidates.** Open the seed pin in the browser and gather its related pins ("More like this"), then the related pins of those, for two hops in total. Add the pins from the user's board. Remove duplicates by pin ID. For each candidate, write the pin ID, pin URL, image URL and source (`seed` | `hop1` | `hop2` | `board`) to `creative/references/visual/moodboard-candidates/candidates.json`.
+3. **Download untouched.** Fetch Pinterest's 736 px-wide image (`i.pinimg.com/736x/...`) for each candidate into `moodboard-candidates/raw/<pinId>.jpg`. Do not resize or re-encode it.
+4. **Contact sheets.** Tile the candidates into sheets labelled with pin IDs, using ImageMagick: `magick montage -label '%t' raw/*.jpg -tile 6x5 -geometry 240x320+6+6 -background '#F2EDE1' sheets/sheet-%02d.jpg` (use `montage` on ImageMagick 6). `-label` must come before the input files, and each sheet holds 30 candidates. Save the sheets in `moodboard-candidates/sheets/`.
+5. **Scan and shortlist.** Look at every sheet, and judge each candidate against the brief. Useful questions: does it fit the seed's look? Could it become a motion, layout or texture idea? Does it duplicate something already chosen? Record a verdict (`selected` / `rejected`) and a one-line reason for every candidate in `candidates.json`. Aim for roughly 20–30 final picks, and show the user the shortlist before finalising.
+6. **Finalise.** Copy the selected raw files into `creative/design/moodboard/` as `NN-slug.jpg`, with the seed as `01`. Write `INDEX.md` as a table with the columns `# | File | Why | Source pin`. Create `_overview.jpg` by running the same montage over the final set, but without `-label`, and with `-tile 6x` so the whole set fits on one page.
+7. **Derive the palette.** Get a starting palette by reducing the seed and `_overview.jpg` to a few colours (`magick <img> -resize 400x -colors 8 -format %c histogram:info:-`). Then tune it by hand for contrast and roles. Record the raw quantised colours, and the reasons for each change, in `design-bible.md`.
+8. **Cite by number.** The design bible and the storyboard must refer to moodboard images by their `NN` number. Each storyboard scene should list the refs it draws on.
+
 ## Dubbing
 
 You should ask the user if they wish to dub the video, if so you should utlise the ElevenLabs MCP to create the voice over
@@ -73,8 +86,10 @@ When starting a new video make sure to reference this project structure
 │   ├── design/
 │   │   ├── design-bible.md         # Overall artistic direction / design oracle
 │   │   ├── moodboard/
-│   │   │   ├── 01-reference.png
-│   │   │   ├── 02-reference.jpg
+│   │   │   ├── INDEX.md            # Seed, sources, per-image rationale
+│   │   │   ├── _overview.jpg       # Montage of the final set
+│   │   │   ├── 01-seed-slug.jpg
+│   │   │   ├── 02-slug.jpg
 │   │   │   └── ...
 │   │   │
 │   │   ├── palette.json            # Colours
@@ -85,6 +100,10 @@ When starting a new video make sure to reference this project structure
 │   │
 │   └── references/
 │       ├── visual/
+│       │   └── moodboard-candidates/
+│       │       ├── candidates.json # Every candidate: pin, source, verdict, reason
+│       │       ├── raw/            # Untouched 736x downloads
+│       │       └── sheets/         # Numbered contact sheets
 │       ├── animation/
 │       ├── cinematography/
 │       └── audio/

@@ -1,0 +1,1073 @@
+{
+  "seedPins": [
+    "234961305553913201",
+    "87046205296905100",
+    "335518240974262906"
+  ],
+  "board": null,
+  "hops": 2,
+  "crawledAt": "2026-09-30",
+  "candidates": [
+    {
+      "pinId": "234961305553913201",
+      "pinUrl": "https://au.pinterest.com/pin/234961305553913201/",
+      "imageUrl": "https://i.pinimg.com/736x/33/09/9a/33099a1d753acb8d12da1a0af217157e.jpg",
+      "source": "seed",
+      "via": null,
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Seed: Machine Age Modernism — spec-sheet editorial type, rules, bracketed labels"
+    },
+    {
+      "pinId": "87046205296905100",
+      "pinUrl": "https://au.pinterest.com/pin/87046205296905100/",
+      "imageUrl": "https://i.pinimg.com/736x/46/66/d1/4666d1cbd110972e2c245834839cae6f.jpg",
+      "source": "seed",
+      "via": null,
+      "title": "Kyle Anthony Miller on X: \"THE SIGNAL IS GETTING STRONGER ████████████████████████ NEO-INDUSTRIAL DESIGN BRS HDS // EXPE",
+      "verdict": "selected",
+      "reason": "Seed: Advanced Design Systems — hairline grid, crosshair registration marks, heavy grotesk"
+    },
+    {
+      "pinId": "335518240974262906",
+      "pinUrl": "https://au.pinterest.com/pin/335518240974262906/",
+      "imageUrl": "https://i.pinimg.com/736x/12/a0/b8/12a0b8e0205344a58f0ae357254a8455.jpg",
+      "source": "seed",
+      "via": null,
+      "title": "Wayne Ford on X",
+      "verdict": "selected",
+      "reason": "Seed: IBM System/3 — lit dot-matrix numeral on a dark dot grid; clusters = dots, the core look"
+    },
+    {
+      "pinId": "474989091972635225",
+      "pinUrl": "https://au.pinterest.com/pin/474989091972635225/",
+      "imageUrl": "https://i.pinimg.com/736x/ff/25/e2/ff25e2bcbded12ed173bc46f39ce4244.jpg",
+      "source": "hop1",
+      "via": "234961305553913201",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Scattered spec labels on white — duplicates AI-OPS label language"
+    },
+    {
+      "pinId": "1829656094517489",
+      "pinUrl": "https://au.pinterest.com/pin/1829656094517489/",
+      "imageUrl": "https://i.pinimg.com/736x/87/bc/7f/87bc7f61efb88bbdd044f3cd8d217a61.jpg",
+      "source": "hop1",
+      "via": "234961305553913201",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Lacoste tag cluster — label idea already covered by AI-OPS"
+    },
+    {
+      "pinId": "333759022406879995",
+      "pinUrl": "https://au.pinterest.com/pin/333759022406879995/",
+      "imageUrl": "https://i.pinimg.com/736x/7e/88/52/7e88520a259bdf73adf51bd1f5cb75b5.jpg",
+      "source": "hop1",
+      "via": "234961305553913201",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "FWD reindustrialize — same family as 333759022406863865, weaker"
+    },
+    {
+      "pinId": "498632990017009454",
+      "pinUrl": "https://au.pinterest.com/pin/498632990017009454/",
+      "imageUrl": "https://i.pinimg.com/736x/fe/09/4b/fe094b54678900927938c9302c12b59d.jpg",
+      "source": "hop1",
+      "via": "234961305553913201",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Stealth Engineering spec labels — duplicate of seed spec-sheet type"
+    },
+    {
+      "pinId": "1060457043529247908",
+      "pinUrl": "https://au.pinterest.com/pin/1060457043529247908/",
+      "imageUrl": "https://i.pinimg.com/736x/34/49/79/344979482a375ad5e84968908af6f394.jpg",
+      "source": "hop1",
+      "via": "234961305553913201",
+      "title": "Brass Hands",
+      "verdict": "rejected",
+      "reason": "Industrial Revival product sheet — layout duplicates seed 234961305553913201"
+    },
+    {
+      "pinId": "325948091803935479",
+      "pinUrl": "https://au.pinterest.com/pin/325948091803935479/",
+      "imageUrl": "https://i.pinimg.com/736x/41/ab/f7/41abf79b1f28917605c1a6bface5e4d0.jpg",
+      "source": "hop1",
+      "via": "234961305553913201",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "OFFLINE / ECHO system state glyphs — state-change labels"
+    },
+    {
+      "pinId": "646125877812015881",
+      "pinUrl": "https://au.pinterest.com/pin/646125877812015881/",
+      "imageUrl": "https://i.pinimg.com/736x/3a/67/3f/3a673f856bfb9501f800330aa020454e.jpg",
+      "source": "hop1",
+      "via": "234961305553913201",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Archive System poster — dense Japanese editorial, off-message"
+    },
+    {
+      "pinId": "884324076847564877",
+      "pinUrl": "https://au.pinterest.com/pin/884324076847564877/",
+      "imageUrl": "https://i.pinimg.com/736x/bb/d2/fe/bbd2fea2282b8872e56f15ee1d00e1f6.jpg",
+      "source": "hop1",
+      "via": "234961305553913201",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Record-label paper form — analogue ephemera, not a motion idea"
+    },
+    {
+      "pinId": "115615915429481878",
+      "pinUrl": "https://au.pinterest.com/pin/115615915429481878/",
+      "imageUrl": "https://i.pinimg.com/736x/f8/af/fd/f8affdccfc8862eca50fb77fba1a44cd.jpg",
+      "source": "hop1",
+      "via": "234961305553913201",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Stepped layer diagram — stacked clusters / hub-over-members hierarchy"
+    },
+    {
+      "pinId": "1067916130398091803",
+      "pinUrl": "https://au.pinterest.com/pin/1067916130398091803/",
+      "imageUrl": "https://i.pinimg.com/736x/a7/6f/3a/a76f3a6db3a6d1f3b0f1de957e5ac256.jpg",
+      "source": "hop1",
+      "via": "87046205296905100",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Cygnito Mono specimen — type specimen, orange-led, no motion idea"
+    },
+    {
+      "pinId": "1138425612093392937",
+      "pinUrl": "https://au.pinterest.com/pin/1138425612093392937/",
+      "imageUrl": "https://i.pinimg.com/736x/af/c3/ef/afc3effff037b742e44afb42c72d56ee.jpg",
+      "source": "hop1",
+      "via": "87046205296905100",
+      "title": "Cute Font",
+      "verdict": "selected",
+      "reason": "Polymer 48 — giant numeral + tiny spec text, hierarchy by contrast"
+    },
+    {
+      "pinId": "818388563577001834",
+      "pinUrl": "https://au.pinterest.com/pin/818388563577001834/",
+      "imageUrl": "https://i.pinimg.com/736x/fd/0c/97/fd0c97d777ce80664875afeea972bab8.jpg",
+      "source": "hop1",
+      "via": "87046205296905100",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Impact campaign card — generic product mock"
+    },
+    {
+      "pinId": "382665299613273000",
+      "pinUrl": "https://au.pinterest.com/pin/382665299613273000/",
+      "imageUrl": "https://i.pinimg.com/736x/c2/7a/94/c27a949acb267e999f371cd2ee6fa75e.jpg",
+      "source": "hop1",
+      "via": "87046205296905100",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Device render 19/26 — product-industrial, off-topic"
+    },
+    {
+      "pinId": "333759022406863865",
+      "pinUrl": "https://au.pinterest.com/pin/333759022406863865/",
+      "imageUrl": "https://i.pinimg.com/736x/83/90/8e/83908e36e6eb38a5e09246fb0e69bb4c.jpg",
+      "source": "hop1",
+      "via": "87046205296905100",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Terminal log + heavy arrow 'Deployed in…' — deployment beat"
+    },
+    {
+      "pinId": "164733298866385559",
+      "pinUrl": "https://au.pinterest.com/pin/164733298866385559/",
+      "imageUrl": "https://i.pinimg.com/736x/bc/30/1f/bc301f48973c8465c24eb56825e7e3fb.jpg",
+      "source": "hop1",
+      "via": "87046205296905100",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "AI-OPS orange — duplicate of grey 35888128285516758"
+    },
+    {
+      "pinId": "258042253646049539",
+      "pinUrl": "https://au.pinterest.com/pin/258042253646049539/",
+      "imageUrl": "https://i.pinimg.com/736x/9b/13/18/9b1318c515c65aad3bd4a0ac3ece4d78.jpg",
+      "source": "hop1",
+      "via": "87046205296905100",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "R1 Autonomous Defense lockup — defence branding, off-message"
+    },
+    {
+      "pinId": "604397212532808285",
+      "pinUrl": "https://au.pinterest.com/pin/604397212532808285/",
+      "imageUrl": "https://i.pinimg.com/736x/7e/4d/7b/7e4d7bf502df620c65f2c0c9fbde9302.jpg",
+      "source": "hop1",
+      "via": "87046205296905100",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "PRG AI U.S.A — duplicates seed 87046205296905100 grid/crosshair look"
+    },
+    {
+      "pinId": "518617713360359743",
+      "pinUrl": "https://au.pinterest.com/pin/518617713360359743/",
+      "imageUrl": "https://i.pinimg.com/736x/ab/99/fa/ab99fa723ebc3c6e3e648b788977765c.jpg",
+      "source": "hop1",
+      "via": "87046205296905100",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Jet livery triptych — military vehicle imagery, off-message"
+    },
+    {
+      "pinId": "258957047308276652",
+      "pinUrl": "https://au.pinterest.com/pin/258957047308276652/",
+      "imageUrl": "https://i.pinimg.com/736x/d8/8c/a6/d88ca61900633769a1da0f140e9c244c.jpg",
+      "source": "hop1",
+      "via": "335518240974262906",
+      "title": "IBM System 3 booklet designed by Matthew Leibowitz.",
+      "verdict": "rejected",
+      "reason": "IBM System/3 yellow variant — duplicate of seed"
+    },
+    {
+      "pinId": "819655200975403344",
+      "pinUrl": "https://au.pinterest.com/pin/819655200975403344/",
+      "imageUrl": "https://i.pinimg.com/736x/07/b9/9e/07b99e2b00347fe684fd0208f128b6ec.jpg",
+      "source": "hop1",
+      "via": "335518240974262906",
+      "title": "KETAKA BRANDING - Hvnter .",
+      "verdict": "rejected",
+      "reason": "Ketaka pixel figure — mascot energy, wrong tone"
+    },
+    {
+      "pinId": "615022892872831737",
+      "pinUrl": "https://au.pinterest.com/pin/615022892872831737/",
+      "imageUrl": "https://i.pinimg.com/736x/0f/ed/27/0fed27ef1e3dc1bf4677b32082315839.jpg",
+      "source": "hop1",
+      "via": "335518240974262906",
+      "title": "SearchSystem™",
+      "verdict": "selected",
+      "reason": "Dot rows filling grey → solid — staged rollout, stage by stage"
+    },
+    {
+      "pinId": "917115911591786433",
+      "pinUrl": "https://au.pinterest.com/pin/917115911591786433/",
+      "imageUrl": "https://i.pinimg.com/736x/b3/1a/74/b31a741726b8d52038d21e9dd3dda45e.jpg",
+      "source": "hop1",
+      "via": "335518240974262906",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Nokia dither green — retro-brand pastiche"
+    },
+    {
+      "pinId": "311733605433006097",
+      "pinUrl": "https://au.pinterest.com/pin/311733605433006097/",
+      "imageUrl": "https://i.pinimg.com/736x/e1/06/8c/e1068c85d356d5485f01bc518a85a90a.jpg",
+      "source": "hop1",
+      "via": "335518240974262906",
+      "title": "printable",
+      "verdict": "selected",
+      "reason": "LED dot field with coloured status lights — cluster health at a glance"
+    },
+    {
+      "pinId": "788763322281324352",
+      "pinUrl": "https://au.pinterest.com/pin/788763322281324352/",
+      "imageUrl": "https://i.pinimg.com/736x/7e/22/a2/7e22a29aaee06324da5997dbb4ba489c.jpg",
+      "source": "hop1",
+      "via": "335518240974262906",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Green pixel noise — too chaotic for a calm control-plane story"
+    },
+    {
+      "pinId": "330029478914609261",
+      "pinUrl": "https://au.pinterest.com/pin/330029478914609261/",
+      "imageUrl": "https://i.pinimg.com/736x/ae/7c/fb/ae7cfb3f52ff89bcec25e75490f11ca8.jpg",
+      "source": "hop1",
+      "via": "335518240974262906",
+      "title": "mucha estetica, poca etica. Dia del disenador grafico 2006",
+      "verdict": "rejected",
+      "reason": "Red dot arrow — duplicate of 354377064447334045 (kept)"
+    },
+    {
+      "pinId": "354377064447334045",
+      "pinUrl": "https://au.pinterest.com/pin/354377064447334045/",
+      "imageUrl": "https://i.pinimg.com/736x/47/29/28/47292873b36012442ca0a9142a2d1094.jpg",
+      "source": "hop1",
+      "via": "335518240974262906",
+      "title": "Savee",
+      "verdict": "selected",
+      "reason": "Arrow lit from a dark dot grid — direction drawn with the same pixels as the fleet"
+    },
+    {
+      "pinId": "383157880792492233",
+      "pinUrl": "https://au.pinterest.com/pin/383157880792492233/",
+      "imageUrl": "https://i.pinimg.com/736x/7b/bc/4a/7bbc4ac8571fe1ba33cf8436c6940a4e.jpg",
+      "source": "hop1",
+      "via": "335518240974262906",
+      "title": "76",
+      "verdict": "rejected",
+      "reason": "76 dot numeral — duplicate of IBM seed numeral"
+    },
+    {
+      "pinId": "843862048973641794",
+      "pinUrl": "https://au.pinterest.com/pin/843862048973641794/",
+      "imageUrl": "https://i.pinimg.com/736x/0f/1c/1c/0f1c1c19abefd66e388a32cfbeca27d7.jpg",
+      "source": "hop2",
+      "via": "474989091972635225",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Dense PASS/READY status sheet — update-run health checks"
+    },
+    {
+      "pinId": "641551909467479398",
+      "pinUrl": "https://au.pinterest.com/pin/641551909467479398/",
+      "imageUrl": "https://i.pinimg.com/736x/6a/5c/68/6a5c683dc132d2be1d3bf81476e3f7cc.jpg",
+      "source": "hop2",
+      "via": "474989091972635225",
+      "title": "S15 Bucket Seats [ASCII x Dither Effect]\n\nShipment: Overdrive.\nRendered in Blender.\nPost Processing in Photoshop.\nOther ",
+      "verdict": "rejected",
+      "reason": "ASCII dither card — ASCII look belongs to previous video"
+    },
+    {
+      "pinId": "298785756539188118",
+      "pinUrl": "https://au.pinterest.com/pin/298785756539188118/",
+      "imageUrl": "https://i.pinimg.com/736x/c4/fc/8f/c4fc8f1f4be42ebc1221492307657287.jpg",
+      "source": "hop2",
+      "via": "474989091972635225",
+      "title": "Luannacaputto",
+      "verdict": "rejected",
+      "reason": "Near-blank address card — too sparse to use"
+    },
+    {
+      "pinId": "360569513944455084",
+      "pinUrl": "https://au.pinterest.com/pin/360569513944455084/",
+      "imageUrl": "https://i.pinimg.com/736x/40/40/e3/4040e38b4246a485d4f5a0c83e2794ea.jpg",
+      "source": "hop2",
+      "via": "1829656094517489",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Coordinate readout on dark — region / location labels"
+    },
+    {
+      "pinId": "757308493585035411",
+      "pinUrl": "https://au.pinterest.com/pin/757308493585035411/",
+      "imageUrl": "https://i.pinimg.com/736x/4e/89/2f/4e892f1da1306f926765917659fb1860.jpg",
+      "source": "hop2",
+      "via": "1829656094517489",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Occult symbol collage — off-message"
+    },
+    {
+      "pinId": "596656650639054966",
+      "pinUrl": "https://au.pinterest.com/pin/596656650639054966/",
+      "imageUrl": "https://i.pinimg.com/736x/8c/72/fd/8c72fd8205b43a93f77f0df2e3808b8f.jpg",
+      "source": "hop2",
+      "via": "1829656094517489",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "EAN sticker poster — barcode kitsch"
+    },
+    {
+      "pinId": "325948091803322873",
+      "pinUrl": "https://au.pinterest.com/pin/325948091803322873/",
+      "imageUrl": "https://i.pinimg.com/736x/36/82/c6/3682c68b2401b75d1e7110e8bc716ad8.jpg",
+      "source": "hop2",
+      "via": "333759022406879995",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "ISC signal core — light-green label layout, weaker than seeds"
+    },
+    {
+      "pinId": "604397212532872602",
+      "pinUrl": "https://au.pinterest.com/pin/604397212532872602/",
+      "imageUrl": "https://i.pinimg.com/736x/b9/8d/ee/b98deeeff37970e65596c491b6a665af.jpg",
+      "source": "hop2",
+      "via": "333759022406879995",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Vector Form Follows Flight — aircraft render, off-message"
+    },
+    {
+      "pinId": "35888128285516758",
+      "pinUrl": "https://au.pinterest.com/pin/35888128285516758/",
+      "imageUrl": "https://i.pinimg.com/736x/bc/37/7b/bc377b10e8db0b44c9aef5b9d2b1ea1f.jpg",
+      "source": "hop2",
+      "via": "333759022406879995",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "AI-OPS grey — status labels (Verified / Synced / Operational), monochrome-first"
+    },
+    {
+      "pinId": "858780222733009547",
+      "pinUrl": "https://au.pinterest.com/pin/858780222733009547/",
+      "imageUrl": "https://i.pinimg.com/736x/97/52/55/975255cebb01cb412ad87b91a25d3744.jpg",
+      "source": "hop2",
+      "via": "1060457043529247908",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Modular agent-systems web crop — too small / generic"
+    },
+    {
+      "pinId": "498632990013826140",
+      "pinUrl": "https://au.pinterest.com/pin/498632990013826140/",
+      "imageUrl": "https://i.pinimg.com/736x/0d/fd/fd/0dfdfd58c75680b07ae8f195246c7f26.jpg",
+      "source": "hop2",
+      "via": "1060457043529247908",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Making Software — blue isometric technical illustration, closest to Azure blue"
+    },
+    {
+      "pinId": "305752262209417310",
+      "pinUrl": "https://au.pinterest.com/pin/305752262209417310/",
+      "imageUrl": "https://i.pinimg.com/736x/2b/f1/00/2bf10029381ad305b72090aaf13fdef7.jpg",
+      "source": "hop2",
+      "via": "1060457043529247908",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Outpost architectural drawing — building, not system"
+    },
+    {
+      "pinId": "771593348688621726",
+      "pinUrl": "https://au.pinterest.com/pin/771593348688621726/",
+      "imageUrl": "https://i.pinimg.com/736x/32/fc/52/32fc5249d10fdc5c6bf972d0e87e58a8.jpg",
+      "source": "hop2",
+      "via": "325948091803935479",
+      "title": "Smart home app identity utilising Aeonik Fono by @cotypefoundry 💡⁠\n⁠\nTest out CoType's fonts >⁠\ncotypefoundry.com⁠\n⁠\n#t",
+      "verdict": "selected",
+      "reason": "Mono UI panel with toggles — control-plane dashboard feel"
+    },
+    {
+      "pinId": "658792251757114879",
+      "pinUrl": "https://au.pinterest.com/pin/658792251757114879/",
+      "imageUrl": "https://i.pinimg.com/736x/e4/e0/16/e4e01691ea4c1dac8aada360494182d6.jpg",
+      "source": "hop2",
+      "via": "325948091803935479",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Health-hazard blue overlay — hazard messaging wrong for a promo"
+    },
+    {
+      "pinId": "675399275400802425",
+      "pinUrl": "https://au.pinterest.com/pin/675399275400802425/",
+      "imageUrl": "https://i.pinimg.com/736x/70/d8/14/70d814276f887bf3d49a2339259d6159.jpg",
+      "source": "hop2",
+      "via": "646125877812015881",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Wireframe globe — multi-region / multi-cloud reach"
+    },
+    {
+      "pinId": "403564816631049793",
+      "pinUrl": "https://au.pinterest.com/pin/403564816631049793/",
+      "imageUrl": "https://i.pinimg.com/736x/4f/c8/c0/4fc8c0ade8e627922d94ad85cdf74555.jpg",
+      "source": "hop2",
+      "via": "646125877812015881",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "ANGEL grey collage — noisy, no clear idea"
+    },
+    {
+      "pinId": "866872628288075303",
+      "pinUrl": "https://au.pinterest.com/pin/866872628288075303/",
+      "imageUrl": "https://i.pinimg.com/736x/f1/1f/d3/f11fd3f056f216dda51d556793b61eae.jpg",
+      "source": "hop2",
+      "via": "884324076847564877",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Analogue devices event poster — Spanish event flyer, off-topic"
+    },
+    {
+      "pinId": "213428469835487578",
+      "pinUrl": "https://au.pinterest.com/pin/213428469835487578/",
+      "imageUrl": "https://i.pinimg.com/736x/be/a0/80/bea0806a44af6897271a58142ac5cec0.jpg",
+      "source": "hop2",
+      "via": "884324076847564877",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Archival typed document — paper ephemera"
+    },
+    {
+      "pinId": "446771225555468767",
+      "pinUrl": "https://au.pinterest.com/pin/446771225555468767/",
+      "imageUrl": "https://i.pinimg.com/736x/e0/8c/fe/e08cfe7312cb3fdfc26e0acf2786177c.jpg",
+      "source": "hop2",
+      "via": "884324076847564877",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "E-commerce cart UI — off-topic"
+    },
+    {
+      "pinId": "143411569380322764",
+      "pinUrl": "https://au.pinterest.com/pin/143411569380322764/",
+      "imageUrl": "https://i.pinimg.com/736x/ee/a2/3c/eea23c2c230ff49aa9754dc5bc1b5a61.jpg",
+      "source": "hop2",
+      "via": "115615915429481878",
+      "title": "Instagram",
+      "verdict": "rejected",
+      "reason": "File-drawer illustration — illustrative style mismatch"
+    },
+    {
+      "pinId": "416653403048905772",
+      "pinUrl": "https://au.pinterest.com/pin/416653403048905772/",
+      "imageUrl": "https://i.pinimg.com/736x/63/6c/dd/636cdd859efb3ae0e5a9526be29a082e.jpg",
+      "source": "hop2",
+      "via": "115615915429481878",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Health-app UI flow — off-topic, low contrast"
+    },
+    {
+      "pinId": "909445718532154855",
+      "pinUrl": "https://au.pinterest.com/pin/909445718532154855/",
+      "imageUrl": "https://i.pinimg.com/736x/74/23/c9/7423c904b0cd087a2739bca2442c3c2a.jpg",
+      "source": "hop2",
+      "via": "115615915429481878",
+      "title": "[ua]\nЯкщо ви хочете сильний, впізнаваний візуальний стиль — я створюю дизайн, який працює на ваш бренд.\n\nЛоготипи, бренд",
+      "verdict": "rejected",
+      "reason": "Tabbed index card — paper metaphor, weak"
+    },
+    {
+      "pinId": "18718154688298333",
+      "pinUrl": "https://au.pinterest.com/pin/18718154688298333/",
+      "imageUrl": "https://i.pinimg.com/736x/45/a0/a6/45a0a64ee57ff82164d9fd4e42615907.jpg",
+      "source": "hop2",
+      "via": "1067916130398091803",
+      "title": "Cygnito Mono by ATK Studio on Creative Market Cygnito Mono is the debut ...",
+      "verdict": "rejected",
+      "reason": "Cygnito Mono on rock — specimen duplicate"
+    },
+    {
+      "pinId": "1147221705057361026",
+      "pinUrl": "https://au.pinterest.com/pin/1147221705057361026/",
+      "imageUrl": "https://i.pinimg.com/736x/c2/72/df/c272df3484c1a233026a62bc3e710210.jpg",
+      "source": "hop2",
+      "via": "1067916130398091803",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Skincare label — off-topic"
+    },
+    {
+      "pinId": "85849936642023251",
+      "pinUrl": "https://au.pinterest.com/pin/85849936642023251/",
+      "imageUrl": "https://i.pinimg.com/736x/9b/3e/e9/9b3ee9c83c3f2f5430a45bcb55de02e5.jpg",
+      "source": "hop2",
+      "via": "1067916130398091803",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Radio QSL card — ephemera"
+    },
+    {
+      "pinId": "714102084693707779",
+      "pinUrl": "https://au.pinterest.com/pin/714102084693707779/",
+      "imageUrl": "https://i.pinimg.com/736x/53/0a/07/530a07f454940184b2815722c7527ec4.jpg",
+      "source": "hop2",
+      "via": "1138425612093392937",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Polymer 50 — duplicate of Polymer 48"
+    },
+    {
+      "pinId": "279363983127058982",
+      "pinUrl": "https://au.pinterest.com/pin/279363983127058982/",
+      "imageUrl": "https://i.pinimg.com/736x/b4/81/e4/b481e43f3b6d256eb6b8b336980fb09a.jpg",
+      "source": "hop2",
+      "via": "1138425612093392937",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "S10 type specimen — busy, duplicate of type ideas"
+    },
+    {
+      "pinId": "1092263715907806637",
+      "pinUrl": "https://au.pinterest.com/pin/1092263715907806637/",
+      "imageUrl": "https://i.pinimg.com/736x/a2/e8/b0/a2e8b03bdacc5474e9818c16e7ed1401.jpg",
+      "source": "hop2",
+      "via": "1138425612093392937",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "reformr grid — weak contrast, little to borrow"
+    },
+    {
+      "pinId": "605452743675534266",
+      "pinUrl": "https://au.pinterest.com/pin/605452743675534266/",
+      "imageUrl": "https://i.pinimg.com/736x/80/e9/a1/80e9a1c2b0e3266d42f87b42bfcb52b4.jpg",
+      "source": "hop2",
+      "via": "818388563577001834",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Web cards with orange footer — generic"
+    },
+    {
+      "pinId": "350577152266452515",
+      "pinUrl": "https://au.pinterest.com/pin/350577152266452515/",
+      "imageUrl": "https://i.pinimg.com/736x/3d/52/62/3d5262e97f48103dcf802ed9a1d11461.jpg",
+      "source": "hop2",
+      "via": "818388563577001834",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Product UI cards incl. 'Role-based access' — feature-pillar card layout"
+    },
+    {
+      "pinId": "823455113157511463",
+      "pinUrl": "https://au.pinterest.com/pin/823455113157511463/",
+      "imageUrl": "https://i.pinimg.com/736x/5b/79/ac/5b79ac14267ce94c4c84261a68ab0166.jpg",
+      "source": "hop2",
+      "via": "818388563577001834",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Bento stat dashboard — centralized monitoring layout"
+    },
+    {
+      "pinId": "758645499770646769",
+      "pinUrl": "https://au.pinterest.com/pin/758645499770646769/",
+      "imageUrl": "https://i.pinimg.com/736x/fe/51/89/fe51893fd9f487a048a5c911b2c60154.jpg",
+      "source": "hop2",
+      "via": "382665299613273000",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Colour swatch strips — orange/black palette, not ours"
+    },
+    {
+      "pinId": "765682374188829665",
+      "pinUrl": "https://au.pinterest.com/pin/765682374188829665/",
+      "imageUrl": "https://i.pinimg.com/736x/fc/72/80/fc72806ce82611278680b59bd4888ed9.jpg",
+      "source": "hop2",
+      "via": "382665299613273000",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Retro computer + katakana — nostalgia, off-message"
+    },
+    {
+      "pinId": "1124633338180008472",
+      "pinUrl": "https://au.pinterest.com/pin/1124633338180008472/",
+      "imageUrl": "https://i.pinimg.com/736x/fe/69/d7/fe69d7aff1b9507c592103dd5ec9a78c.jpg",
+      "source": "hop2",
+      "via": "382665299613273000",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "RX-09 cube render — mecha styling, off-message"
+    },
+    {
+      "pinId": "87046205296326442",
+      "pinUrl": "https://au.pinterest.com/pin/87046205296326442/",
+      "imageUrl": "https://i.pinimg.com/736x/8c/18/7b/8c187b595ea163e1edc29fb355069bd7.jpg",
+      "source": "hop2",
+      "via": "333759022406863865",
+      "title": "Kyle Anthony Miller (@kyleanthony) on X",
+      "verdict": "rejected",
+      "reason": "DRS 24/7 — same Brass Hands family as seed, adds nothing"
+    },
+    {
+      "pinId": "87046205296541122",
+      "pinUrl": "https://au.pinterest.com/pin/87046205296541122/",
+      "imageUrl": "https://i.pinimg.com/736x/b6/63/a0/b663a008d43826058bb744f789608d5e.jpg",
+      "source": "hop2",
+      "via": "333759022406863865",
+      "title": "Kyle Anthony Miller on X: \"New design work for Factory https://t.co/VV2FlQybrd\" / X",
+      "verdict": "rejected",
+      "reason": "Droids Active — same family as seed, robot messaging"
+    },
+    {
+      "pinId": "481674122661387828",
+      "pinUrl": "https://au.pinterest.com/pin/481674122661387828/",
+      "imageUrl": "https://i.pinimg.com/736x/b9/99/67/b99967238cf3299dc3cc95621b2ddb99.jpg",
+      "source": "hop2",
+      "via": "333759022406863865",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "BLNK web3 banner — web3 connotation"
+    },
+    {
+      "pinId": "825073594256860929",
+      "pinUrl": "https://au.pinterest.com/pin/825073594256860929/",
+      "imageUrl": "https://i.pinimg.com/736x/f6/d4/4f/f6d44f73731b88460e8d343a3ff056e5.jpg",
+      "source": "hop2",
+      "via": "164733298866385559",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "NASA hazard stripes — hazard stripes read as warning"
+    },
+    {
+      "pinId": "155303888193062420",
+      "pinUrl": "https://au.pinterest.com/pin/155303888193062420/",
+      "imageUrl": "https://i.pinimg.com/736x/08/92/f3/0892f3e0c9ef88adc15e5eba916f5f02.jpg",
+      "source": "hop2",
+      "via": "164733298866385559",
+      "title": "SVG Cyberpunk Poster - Digital Download Print Modern Poster Wall Art",
+      "verdict": "rejected",
+      "reason": "Cyberpunk SVG poster — cyberpunk tone wrong for Azure"
+    },
+    {
+      "pinId": "710724384987547580",
+      "pinUrl": "https://au.pinterest.com/pin/710724384987547580/",
+      "imageUrl": "https://i.pinimg.com/736x/f2/b0/76/f2b07637f4c92f9e98810337231fb9aa.jpg",
+      "source": "hop2",
+      "via": "164733298866385559",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Adidas QR poster — fashion branding"
+    },
+    {
+      "pinId": "689613761711666792",
+      "pinUrl": "https://au.pinterest.com/pin/689613761711666792/",
+      "imageUrl": "https://i.pinimg.com/736x/fd/5c/23/fd5c23e289943cfb3e9a3d10c1efde1e.jpg",
+      "source": "hop2",
+      "via": "258042253646049539",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "3 stripes 30/35 — sports numeral, off-topic"
+    },
+    {
+      "pinId": "1087760116397744361",
+      "pinUrl": "https://au.pinterest.com/pin/1087760116397744361/",
+      "imageUrl": "https://i.pinimg.com/736x/58/18/6f/58186f8740abf0065702f7b3b0639278.jpg",
+      "source": "hop2",
+      "via": "258042253646049539",
+      "title": "Premium Streetwear Graphic Tee Design Templates for You😃",
+      "verdict": "rejected",
+      "reason": "Streetwear badges — merch templates"
+    },
+    {
+      "pinId": "568649890476291868",
+      "pinUrl": "https://au.pinterest.com/pin/568649890476291868/",
+      "imageUrl": "https://i.pinimg.com/736x/2f/a3/04/2fa3040ec2fbaf535db341aef1daf5df.jpg",
+      "source": "hop2",
+      "via": "258042253646049539",
+      "title": "(1) Home / X",
+      "verdict": "rejected",
+      "reason": "Cathedral stealth card — defence branding"
+    },
+    {
+      "pinId": "290904457201329773",
+      "pinUrl": "https://au.pinterest.com/pin/290904457201329773/",
+      "imageUrl": "https://i.pinimg.com/736x/b9/31/a9/b931a9b70f2722f4c74ef5a114a497cd.jpg",
+      "source": "hop2",
+      "via": "604397212532808285",
+      "title": "Шрифты | Fonts",
+      "verdict": "selected",
+      "reason": "Unbounded — dark frame, circular construction lines, crosshairs: hub-centred composition"
+    },
+    {
+      "pinId": "121456521193642471",
+      "pinUrl": "https://au.pinterest.com/pin/121456521193642471/",
+      "imageUrl": "https://i.pinimg.com/736x/d2/94/f6/d294f61d2ac4970ca771e8bc6e3b485e.jpg",
+      "source": "hop2",
+      "via": "604397212532808285",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Hanzi orange editorial — language-specific, busy"
+    },
+    {
+      "pinId": "502925483380335633",
+      "pinUrl": "https://au.pinterest.com/pin/502925483380335633/",
+      "imageUrl": "https://i.pinimg.com/736x/23/de/cd/23decd2660494f4918d91fed93bb1473.jpg",
+      "source": "hop2",
+      "via": "604397212532808285",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "2-(3) editorial — weak, yellow accent off-palette"
+    },
+    {
+      "pinId": "35888128286103385",
+      "pinUrl": "https://au.pinterest.com/pin/35888128286103385/",
+      "imageUrl": "https://i.pinimg.com/736x/de/5f/9f/de5f9fc849e26f264d4b58e12be4a11e.jpg",
+      "source": "hop2",
+      "via": "518617713360359743",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Orion bento mockups — product photos, busy"
+    },
+    {
+      "pinId": "948781846514726091",
+      "pinUrl": "https://au.pinterest.com/pin/948781846514726091/",
+      "imageUrl": "https://i.pinimg.com/736x/5f/62/75/5f62753494afa76e79bbcd2858a2fa56.jpg",
+      "source": "hop2",
+      "via": "518617713360359743",
+      "title": "marathon collage",
+      "verdict": "rejected",
+      "reason": "Marathon collage — chaotic"
+    },
+    {
+      "pinId": "1039909370221055365",
+      "pinUrl": "https://au.pinterest.com/pin/1039909370221055365/",
+      "imageUrl": "https://i.pinimg.com/736x/70/79/f2/7079f28e27ef9b0f5406016d9e59453d.jpg",
+      "source": "hop2",
+      "via": "518617713360359743",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Jet + spec sheet — military imagery"
+    },
+    {
+      "pinId": "281123201714008860",
+      "pinUrl": "https://au.pinterest.com/pin/281123201714008860/",
+      "imageUrl": "https://i.pinimg.com/736x/c9/0d/7a/c90d7a03d53ac818038ef152b0966524.jpg",
+      "source": "hop2",
+      "via": "258957047308276652",
+      "title": "Mono Dark. Kathy Kavan",
+      "verdict": "selected",
+      "reason": "Dot grid carrying a colour field — cluster heatmap across a fleet"
+    },
+    {
+      "pinId": "1098174690408954492",
+      "pinUrl": "https://au.pinterest.com/pin/1098174690408954492/",
+      "imageUrl": "https://i.pinimg.com/736x/93/48/54/934854504f8ce8930e82dfe0beca6318.jpg",
+      "source": "hop2",
+      "via": "258957047308276652",
+      "title": "LED Digital Display Font - Airport Terminal – Royalty-Free Vector | VectorStock ✨",
+      "verdict": "selected",
+      "reason": "Dot-matrix alphabet — display face for numerals and readouts"
+    },
+    {
+      "pinId": "582160689378630408",
+      "pinUrl": "https://au.pinterest.com/pin/582160689378630408/",
+      "imageUrl": "https://i.pinimg.com/736x/e9/7e/98/e97e985259257dd2ae861b8053a10ffd.jpg",
+      "source": "hop2",
+      "via": "258957047308276652",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "MIT Lincoln pixel chart — interesting but duplicates dot-colour-field 281123201714008860"
+    },
+    {
+      "pinId": "323414817014082032",
+      "pinUrl": "https://au.pinterest.com/pin/323414817014082032/",
+      "imageUrl": "https://i.pinimg.com/736x/16/29/d2/1629d25b8581a4ef78dbaab43c409954.jpg",
+      "source": "hop2",
+      "via": "819655200975403344",
+      "title": "(5) Instagram",
+      "verdict": "rejected",
+      "reason": "Space & Algorithms — pixel-foliage, off-message"
+    },
+    {
+      "pinId": "279363983123286021",
+      "pinUrl": "https://au.pinterest.com/pin/279363983123286021/",
+      "imageUrl": "https://i.pinimg.com/736x/25/c6/7b/25c67b483f27ef53c0a124ae014c7151.jpg",
+      "source": "hop2",
+      "via": "819655200975403344",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Dot horse — pictorial, off-topic"
+    },
+    {
+      "pinId": "325948091804066437",
+      "pinUrl": "https://au.pinterest.com/pin/325948091804066437/",
+      "imageUrl": "https://i.pinimg.com/736x/c8/91/00/c891007e941cf91e358f25fa3ce08482.jpg",
+      "source": "hop2",
+      "via": "819655200975403344",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Blurred runner halftone — human/sport, off-topic"
+    },
+    {
+      "pinId": "1113022495424474912",
+      "pinUrl": "https://au.pinterest.com/pin/1113022495424474912/",
+      "imageUrl": "https://i.pinimg.com/736x/f8/e0/14/f8e014b9500d4103b0d456d0559a828a.jpg",
+      "source": "hop2",
+      "via": "615022892872831737",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "84% dot-row progress bar — update-run progress built from dots"
+    },
+    {
+      "pinId": "218917231864589447",
+      "pinUrl": "https://au.pinterest.com/pin/218917231864589447/",
+      "imageUrl": "https://i.pinimg.com/736x/13/8c/97/138c9778a00f6202391543563850d720.jpg",
+      "source": "hop2",
+      "via": "615022892872831737",
+      "title": "MuirMcNeil Factor. A typeface for visualising numbers.",
+      "verdict": "selected",
+      "reason": "Dot grid scaling from big to small — scale / count metaphor"
+    },
+    {
+      "pinId": "396527942212185955",
+      "pinUrl": "https://au.pinterest.com/pin/396527942212185955/",
+      "imageUrl": "https://i.pinimg.com/736x/6e/78/dc/6e78dc66a118974e5deb40ca5c95b149.jpg",
+      "source": "hop2",
+      "via": "615022892872831737",
+      "title": "My Strava Year in Sport Stats",
+      "verdict": "rejected",
+      "reason": "Strava lollipop chart — data viz idea covered by dot progress rows"
+    },
+    {
+      "pinId": "1133288693731532955",
+      "pinUrl": "https://au.pinterest.com/pin/1133288693731532955/",
+      "imageUrl": "https://i.pinimg.com/736x/f9/64/8d/f9648d0243749b6da1bcae055b7d0b4b.jpg",
+      "source": "hop2",
+      "via": "917115911591786433",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Nokia pixel hands — retro-brand pastiche"
+    },
+    {
+      "pinId": "976858975421980676",
+      "pinUrl": "https://au.pinterest.com/pin/976858975421980676/",
+      "imageUrl": "https://i.pinimg.com/736x/8f/66/d5/8f66d5dadf65d41c9fe60d826b941b91.jpg",
+      "source": "hop2",
+      "via": "917115911591786433",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Brain + kanji acid green — off-palette, off-message"
+    },
+    {
+      "pinId": "635148353731006002",
+      "pinUrl": "https://au.pinterest.com/pin/635148353731006002/",
+      "imageUrl": "https://i.pinimg.com/736x/83/65/cd/8365cd042826bcf672e65dc9208e403f.jpg",
+      "source": "hop2",
+      "via": "311733605433006097",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Scattered LED dots — duplicate of 311733605433006097"
+    },
+    {
+      "pinId": "559009372492114298",
+      "pinUrl": "https://au.pinterest.com/pin/559009372492114298/",
+      "imageUrl": "https://i.pinimg.com/736x/90/61/a8/9061a807de7af6c0af8fc5a08b04a855.jpg",
+      "source": "hop2",
+      "via": "311733605433006097",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Halftone dot gradient sky — background / transition texture"
+    },
+    {
+      "pinId": "842454674018800511",
+      "pinUrl": "https://au.pinterest.com/pin/842454674018800511/",
+      "imageUrl": "https://i.pinimg.com/736x/6d/9c/9e/6d9c9e54b0b07be9dc911e5b628f0f26.jpg",
+      "source": "hop2",
+      "via": "311733605433006097",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Dot vortex in purple/blue/pink — placement propagating outward; palette hint"
+    },
+    {
+      "pinId": "595038169557179213",
+      "pinUrl": "https://au.pinterest.com/pin/595038169557179213/",
+      "imageUrl": "https://i.pinimg.com/736x/eb/34/d5/eb34d55a5eb70ca2dfb9978d27fdc2ea.jpg",
+      "source": "hop2",
+      "via": "788763322281324352",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Racing-line abstract — acid green, off-message"
+    },
+    {
+      "pinId": "1122311169757171037",
+      "pinUrl": "https://au.pinterest.com/pin/1122311169757171037/",
+      "imageUrl": "https://i.pinimg.com/736x/35/be/6f/35be6fb23450e0a8ca36f374f3054f3d.jpg",
+      "source": "hop2",
+      "via": "788763322281324352",
+      "title": "Surreal Poster Art",
+      "verdict": "rejected",
+      "reason": "Point-cloud whale — surreal, off-message"
+    },
+    {
+      "pinId": "1137862662131195188",
+      "pinUrl": "https://au.pinterest.com/pin/1137862662131195188/",
+      "imageUrl": "https://i.pinimg.com/736x/e4/1f/fc/e41ffcdeb0318c8b1fc5781534ec0119.jpg",
+      "source": "hop2",
+      "via": "788763322281324352",
+      "title": "Cinematic Editorial Design",
+      "verdict": "rejected",
+      "reason": "Hyperion collage — noisy cyberpunk"
+    },
+    {
+      "pinId": "404057397837459357",
+      "pinUrl": "https://au.pinterest.com/pin/404057397837459357/",
+      "imageUrl": "https://i.pinimg.com/736x/c6/7c/41/c67c41f83e3a1ea5e4e0d4441a129466.jpg",
+      "source": "hop2",
+      "via": "330029478914609261",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Arrow made of many small arrows — many units, one direction: the fleet metaphor"
+    },
+    {
+      "pinId": "686799011902797673",
+      "pinUrl": "https://au.pinterest.com/pin/686799011902797673/",
+      "imageUrl": "https://i.pinimg.com/736x/90/00/44/900044f7bdbc0f7f8aa849965e5ec0aa.jpg",
+      "source": "hop2",
+      "via": "330029478914609261",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Le Tour halftone — duplicate of halftone ideas"
+    },
+    {
+      "pinId": "188588303127324408",
+      "pinUrl": "https://au.pinterest.com/pin/188588303127324408/",
+      "imageUrl": "https://i.pinimg.com/736x/d4/d0/3b/d4d03b90f1b9bcfac8d160192751a81f.jpg",
+      "source": "hop2",
+      "via": "330029478914609261",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "'direction' red angle — too sparse, off-palette"
+    },
+    {
+      "pinId": "487655465898564233",
+      "pinUrl": "https://au.pinterest.com/pin/487655465898564233/",
+      "imageUrl": "https://i.pinimg.com/736x/59/3a/75/593a7579ca0811580655e704a5165249.jpg",
+      "source": "hop2",
+      "via": "354377064447334045",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Dot-matrix pictograms — feature icons in the grid's own language"
+    },
+    {
+      "pinId": "1060175568532126470",
+      "pinUrl": "https://au.pinterest.com/pin/1060175568532126470/",
+      "imageUrl": "https://i.pinimg.com/736x/c4/57/0d/c4570da38b58425e70bc5dbd84dd831d.jpg",
+      "source": "hop2",
+      "via": "354377064447334045",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Line icon grid — kept dot pictograms 487655465898564233 instead for consistency"
+    },
+    {
+      "pinId": "597923288041839122",
+      "pinUrl": "https://au.pinterest.com/pin/597923288041839122/",
+      "imageUrl": "https://i.pinimg.com/736x/43/c4/88/43c4884315b1739384a1d9d26a98ff1e.jpg",
+      "source": "hop2",
+      "via": "354377064447334045",
+      "title": " ",
+      "verdict": "selected",
+      "reason": "Black circles on dot grid — clusters as occupied cells"
+    },
+    {
+      "pinId": "404972191474202820",
+      "pinUrl": "https://au.pinterest.com/pin/404972191474202820/",
+      "imageUrl": "https://i.pinimg.com/736x/35/3b/fa/353bfad877bc2005eccc997849d47ae9.jpg",
+      "source": "hop2",
+      "via": "383157880792492233",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "Colour dot pattern — duplicate of halftone warp"
+    },
+    {
+      "pinId": "572520171380433567",
+      "pinUrl": "https://au.pinterest.com/pin/572520171380433567/",
+      "imageUrl": "https://i.pinimg.com/736x/3b/89/70/3b8970f9f0f542bf602664710d01a3ba.jpg",
+      "source": "hop2",
+      "via": "383157880792492233",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "1718 pink exhibition — off-palette, no idea"
+    },
+    {
+      "pinId": "628252216805358315",
+      "pinUrl": "https://au.pinterest.com/pin/628252216805358315/",
+      "imageUrl": "https://i.pinimg.com/736x/e4/6d/ee/e46dee5ee0b8b8afa3207f8794fdad73.jpg",
+      "source": "hop2",
+      "via": "383157880792492233",
+      "title": " ",
+      "verdict": "rejected",
+      "reason": "GAME knitted type — craft texture, off-message"
+    },
+    {
+      "pinId": "attached-02",
+      "pinUrl": null,
+      "imageUrl": "local attachment (pasted-image-56bb3d3da37c0c03.png)",
+      "source": "attachment",
+      "via": null,
+      "title": "Halftone warp — user attachment #2; not the image at pin 87046205296905100",
+      "verdict": "selected",
+      "reason": "User attachment: halftone field warped by a force — motion idea for a fleet rippling as one"
+    }
+  ],
+  "note": "Seed pin 87046205296905100 resolves to 'Advanced Design Systems' (Brass Hands), not the yellow halftone the user attached as image #2; the attachment is kept as candidate 'attached-02' (raw/attached-02.png, untouched PNG)."
+}

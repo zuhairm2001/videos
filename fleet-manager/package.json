@@ -1,0 +1,23 @@
+{
+  "name": "fleet-manager",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite animation",
+    "render:frames": "tsx animation/render/render-frames.ts",
+    "render:music": "tsx audio/music/render-music.ts",
+    "render:sfx": "tsx audio/sfx/render-sfx.ts",
+    "mix": "tsx audio/mix.ts"
+  },
+  "dependencies": {
+    "tonal": "^6.4.2",
+    "tone": "^15.1.22"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "playwright": "^1.56.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  }
+}

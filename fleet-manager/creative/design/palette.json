@@ -1,0 +1,32 @@
+{
+  "name": "Fleet Spec Sheet",
+  "colors": {
+    "ground":     { "hex": "#0B0F17", "role": "background, every frame", "contrastOnGround": 1.0 },
+    "dotOff":     { "hex": "#1F2A3A", "role": "unlit dots, idle grid", "contrastOnGround": 1.32 },
+    "rule":       { "hex": "#34425A", "role": "hairlines, crosshairs, construction circles (never text)", "contrastOnGround": 1.89 },
+    "paper":      { "hex": "#EEECE2", "role": "primary text on ground; spec plates", "contrastOnGround": 16.19 },
+    "mute":       { "hex": "#8894A8", "role": "secondary mono labels", "contrastOnGround": 6.25 },
+    "azure":      { "hex": "#0078D4", "role": "Microsoft Azure blue: healthy / updated / completed stage, hull, CTA plate", "contrastOnGround": 4.24 },
+    "azureLight": { "hex": "#83B9F9", "role": "wave line, lit-dot glow, readable blue text", "contrastOnGround": 9.38 },
+    "fleet":      { "hex": "#773ADC", "role": "Fleet Manager purple: hub, membership, placement fills, halos", "contrastOnGround": 3.13 },
+    "fleetLight": { "hex": "#A67AF4", "role": "purple text on ground, container fill", "contrastOnGround": 6.13 },
+    "fleetPale":  { "hex": "#B796F9", "role": "container bars, highlights", "contrastOnGround": 7.99 },
+    "drift":      { "hex": "#F5600A", "role": "unmanaged / out-of-date / pending state only", "contrastOnGround": 5.99 }
+  },
+  "sources": {
+    "icon": "fleet-manager-icon.svg fills: #0078D4, #773ADC, #A67AF4, #B796F9, #83B9F9 (used unchanged)",
+    "moodboard": "ground/dotOff from seed 01 (#232A28/#394239, hue-shifted to blue-grey); paper = overview #EEECE2; drift = overview #F5600A; mute from overview greys"
+  },
+  "rules": [
+    "ground + dot field in every frame",
+    "max 3 state colours (azure, fleet family, drift) on screen at once",
+    "drift appears only before the fleet is managed (S01-S03) and on pending update stages (S05); never after 36 s",
+    "fleet purple = Fleet Manager acting; azure = the result being healthy/updated"
+  ],
+  "contrastRules": [
+    "readable text on ground: paper, mute (>= 20 px), azureLight, fleetLight, fleetPale, drift (>= 24 px)",
+    "azure text only >= 48 px bold; fleet (#773ADC) never as text",
+    "rule never carries meaning",
+    "text on azure/fleet plates is paper (azure plate 3.8:1 -> >= 32 px bold only; fleet plate 5.2:1 -> >= 24 px)"
+  ]
+}
